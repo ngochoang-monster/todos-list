@@ -5,7 +5,7 @@ import TodoList from './TodoList.js'
 import Footer from './Footer.js'
 
 function App({ todos }) {
-    return html`
+  return html`
       <section class="todoapp">
         ${Header()}
         ${todos.length > 0 && TodoList()}
